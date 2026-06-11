@@ -6,5 +6,6 @@ public class Main {
         System.out.println("Hello");
         Scanner input = new Scanner(System.in);
         System.out.print(input.nextInt());
+        input.close();
     }
 }
